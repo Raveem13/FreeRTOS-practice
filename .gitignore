@@ -1,0 +1,45 @@
+# Ignore the FreeRTOS source (you will keep it locally)
+Source/
+FreeRTOS/
+
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.elf
+*.out
+*.map
+*.bin
+*.hex
+
+# Ignore backup / temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.d
+*.DS_Store
+
+# Ignore VS Code and MSYS2 generated files
+.vscode/
+*.code-workspace
+*.launch
+*.settings/
+*.cache/
+
+# Ignore make build output
+build/
+output/
+debug/
+release/
+
+# Ignore automatically generated dependency files
+*.dep
+
+# Ignore OS specific junk
+Thumbs.db
+desktop.ini
+
+# Ignore user-specific Git config files
+.gitconfig
