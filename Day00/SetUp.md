@@ -31,9 +31,8 @@ This guide explains how to set up, build, and run FreeRTOS on **Windows** using 
    ```bash
    pacman -Syu
    ```
-
-   (Restart MSYS2 if it asks you to.)
     When prompted, close the terminal and reopen it.
+    (Restart MSYS2 if it asks you to.)
 
 3. Update remaining packages:
     ```bash
@@ -210,7 +209,7 @@ Run these **in MinGW64 terminal** inside your `Day00/` folder:
     ./freertos_demo.exe
     ```
 
-3. Clean build: Delete previous build file(.exe)
+3. Clean build: Deletes previous build file(.exe)
     ```bash
     make clean
     ```
@@ -229,6 +228,7 @@ Run these **in MinGW64 terminal** inside your `Day00/` folder:
 
 ### 🧩 9. Recommended VS Code Settings
 (If VS Code terminal not giving MSYS MinGW64 bash)
+
 Add this to your VS Code `.vscode/settings.json`:
 
 ```json
