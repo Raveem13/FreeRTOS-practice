@@ -77,7 +77,7 @@ mkdir -p FreeRTOS_practice/Day00
 Clone FreeRTOS kernel (recommended over ZIP):
 
 ```bash
-git clone https://github.com/FreeRTOS/FreeRTOS-Kernel.git
+git clone https://github.com/FreeRTOS/FreeRTOS.git
 ```
 
 Directory layout:
