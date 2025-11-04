@@ -228,7 +228,7 @@ Run these **in MinGW64 terminal** inside your `Day00/` folder:
 ---
 
 ### 🧩 9. Recommended VS Code Settings
-
+(If VS Code terminal not giving MSYS MinGW64 bash)
 Add this to your VS Code `.vscode/settings.json`:
 
 ```json
