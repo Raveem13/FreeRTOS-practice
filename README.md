@@ -28,7 +28,7 @@ This repo contains clean, working FreeRTOS examples that build and run on the **
 
 ---
 
-## 🧰 Tools & Setup
+## 🧰 Tools Used
 
 | Tool | Purpose | Link |
 |------|----------|------|
