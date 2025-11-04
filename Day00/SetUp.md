@@ -45,11 +45,11 @@ This guide explains how to set up, build, and run FreeRTOS on **Windows** using 
    ```bash
    pacman -S --needed base-devel mingw-w64-x86_64-gcc git
    ```
-
+<!-- 
 4. **Close MSYS2** and **open MinGW64** from Start Menu:
-   👉 `Start → MSYS2 → MinGW64`
+   👉 `Start → MSYS2 → MinGW64` -->
 
-5. Verify installations:
+4. Verify installations:
 
    ```bash
    gcc --version
@@ -191,19 +191,29 @@ A minimal config file (for Windows simulator):
 
 Run these **in MinGW64 terminal** inside your `Day00/` folder:
 
-```bash
-make run
-```
+1. Build using make:
+    ```bash
+    make run
+    ```
 
-Expected output:
+    Expected output:
 
-```
-FreeRTOS Demo Start
-Task 1 running
-Task 1 running
-...
-```
+    ```
+    FreeRTOS Demo Start
+    Task 1 running
+    Task 1 running
+    ...
+    ```
 
+2. Run the executable:
+    ```bash
+    ./freertos_demo.exe
+    ```
+
+3. Clean build: Delete previous build file(.exe)
+    ```bash
+    make clean
+    ```
 ---
 
 ### 🧰 8. Common Issues
