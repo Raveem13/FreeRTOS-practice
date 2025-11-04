@@ -1,5 +1,7 @@
 This assumes you have no existing setup.
+
 We’ll go from zero → successfully running your first FreeRTOS multitasking example.
+
 ---
 
 ## 🧠 FreeRTOS Setup Guide (Windows + VS Code + MinGW64)
