@@ -80,6 +80,9 @@ Clone FreeRTOS kernel (recommended over ZIP):
 
 ```bash
 git clone https://github.com/FreeRTOS/FreeRTOS.git
+cd FreeRTOS
+git submodule update --init --recursive
+
 ```
 
 Directory layout:
