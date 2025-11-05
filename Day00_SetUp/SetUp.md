@@ -84,6 +84,10 @@ cd FreeRTOS
 git submodule update --init --recursive
 
 ```
+OR
+```bash
+git clone https://github.com/FreeRTOS/FreeRTOS.git --recurse-submodules
+```
 
 Directory layout:
 
